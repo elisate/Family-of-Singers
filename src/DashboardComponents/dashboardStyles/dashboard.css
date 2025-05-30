@@ -1,0 +1,19 @@
+/* Dashboard.css */
+ .dashboard-container {
+    display: flex;
+    height: 100vh;
+    background: #f8f9fa;
+   
+   
+ 
+    
+}
+
+
+.dash-content{
+    flex: 1;
+  
+    
+    margin: 20px;
+
+}

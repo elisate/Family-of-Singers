@@ -1,0 +1,147 @@
+.members-page {
+    padding: 20px;
+    background-color: #2c3e50; /* Dark blue-gray background (matches sidebar) */
+    min-height: 100vh;
+  }
+  
+  .members-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .members-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white; /* White text (matches sidebar) */
+  }
+  
+  .add-member-btn {
+    background-color: #1abc9c; /* Teal button (matches sidebar active/hover) */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-member-btn:hover {
+    background-color: #16a085; /* Slightly darker teal on hover */
+  }
+  
+  .members-table {
+    background-color: white; /* Keep white for contrast */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Slightly darker shadow for depth */
+    overflow: hidden;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #34495e; /* Light blue-gray header (matches sidebar link background) */
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #34495e; /* Light blue-gray border */
+  }
+  
+  th {
+    font-size: 14px;
+    font-weight: 600;
+    color: white; /* White text (matches sidebar) */
+    text-transform: uppercase;
+  }
+  
+  td {
+    font-size: 14px;
+    color: #2c3e50; /* Dark blue-gray text for readability on white background */
+  }
+  
+  .member-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .member-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .member-name {
+    font-weight: 500;
+    color: #2c3e50; /* Dark blue-gray text */
+  }
+  
+  .member-email {
+    font-size: 12px;
+    color: #666666; /* Dark gray for email */
+  }
+  
+  .role-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #34495e; /* Light blue-gray (matches sidebar link background) */
+    color: white; /* White text */
+  }
+  
+  /* Remove role-specific colors and use a uniform color */
+  .role-soprano,
+  .role-tenor,
+  .role-alto,
+  .role-bass {
+    background-color: #34495e; /* Uniform light blue-gray */
+    color: white;
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .status-active {
+    background-color: #1abc9c; /* Teal (matches sidebar active/hover) */
+    color: white; /* White text */
+  }
+  
+  .status-on-leave {
+    background-color: #e74c3c; /* Red (complementary color for contrast) */
+    color: white; /* White text */
+  }
+  
+  .member-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-btn {
+    background: none;
+    border: none;
+    color: #1abc9c; /* Teal icons (matches sidebar active/hover) */
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .action-btn:hover {
+    color: #16a085; /* Slightly darker teal on hover */
+  }
+  

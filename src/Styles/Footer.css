@@ -1,0 +1,126 @@
+.Footer-container{
+    padding-top: 30px;
+    background: rgba(30, 34, 45, 1);
+    color:rgba(220, 220, 220, 1);
+    height: 420px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+.foooter-Links h4{
+    font-size: 25px;
+    color: rgba(255, 147, 0,1);
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.foooter-Links ul{
+    margin-left: 20px;
+    list-style: none;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foooter-Links ul li{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.icon{
+    font-size: 12px;
+   color: rgba(102, 102, 102, 1);
+}
+
+.footer-contact{
+    margin-left: 47em;
+    margin-top: -17.4em;
+   
+}
+
+.footer-contact ul{
+    list-style: none;
+    margin-top: -5px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+
+.footer-contact ul li{
+    margin-top: 23px;
+    font-size: 15px;
+   
+}
+
+
+
+.foooter-Links{
+    margin-left: 100px;
+}
+
+.footer-contact h4{
+    font-size: 25px;
+    color: rgba(255, 147, 0,1);
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.footer-socials {
+    display: flex; 
+    justify-content: center; 
+    gap: 25px; 
+    margin-top: 70px; 
+    padding-bottom: 5px;
+    margin-left: -65px;
+    border-bottom: 0.3px solid rgb(52, 56, 66);
+}
+
+.footer-socials .socials {
+    width: 40px;  
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+
+.footer-socials .socials:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+
+.copyright{
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+.underline{
+    display: inline-block; 
+    border-bottom: 0.2px solid rgb(202, 202, 202); 
+    padding-bottom: 1px; 
+}
+
+.footer-arrow {
+    color: rgb(255, 255, 255);
+    margin-left: 90em; 
+    padding: 10px;
+    background-color: rgba(255, 147, 0, 1);
+    
+    /* Box Styling */
+    width: 30px; 
+    height: 30px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px; 
+    margin-top: -22px;
+    margin-left: 95em;
+    
+}
